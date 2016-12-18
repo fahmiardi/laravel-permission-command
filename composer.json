@@ -1,0 +1,32 @@
+{
+    "name": "fahmiardi/laravel-permission-command",
+    "description": "Console commands for Laravel Permission",
+    "keywords": [
+        "spatie",
+        "laravel",
+        "permission",
+        "acl",
+        "security",
+        "console",
+        "command"
+    ],
+    "homepage": "https://github.com/fahmiardi/laravel-permission-command",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fahmi Ardi",
+            "email": "f4hem.net@gmail.com",
+            "homepage": "https://github.com/fahmiardi",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/console": "~5.1.0|~5.2.0|~5.3.0",
+        "spatie/laravel-permission": "~1.5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fahmiardi\\Permissions\\Commands\\": "src/"
+        }
+    }
+}
